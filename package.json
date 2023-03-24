@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Backend server for amazon-clone, and this is hosted on aws ec2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "googleapis": "^107.0.0",
+    "http-proxy-middleware": "^2.0.6",
+    "nodemailer": "^6.9.1",
+    "nodemon": "^2.0.19",
+    "otp-generator": "^4.0.1",
+    "stripe": "^10.17.0"
+  }
+}
